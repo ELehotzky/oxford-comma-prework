@@ -10,8 +10,3 @@ def oxford_comma(array)
 end
 
 
-
-+  else
-+    array[-1] = "and " + array[-1]
-+    oxford_string = array.join(", ")
-+  end
